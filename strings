@@ -1,6 +1,12 @@
 
-
-
 //from codewars function that join two strings without duplicates
 
-const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
+
+
+//parseInt takes a string and converts to integer (from mosh)
+
+function convertToInteger(str) {
+  return parseInt(str);
+}
+convertToInteger('56';)
