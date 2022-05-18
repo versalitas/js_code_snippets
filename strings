@@ -1,5 +1,5 @@
 
-//from codewars function that join two strings without duplicates
+//from codewars function that joins two strings without duplicates
 
 const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
 
