@@ -1,1 +1,11 @@
+const months = ['a', 't', 'h', 'e', 'l'];
+#### properties
 
+Array.prototype.length 
+months.length;
+
+
+#### methods:
+
+Array.prototype.length
+months.sort();
