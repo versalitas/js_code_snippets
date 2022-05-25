@@ -49,7 +49,7 @@ let myArray = ['monday':{'entree': "mac'n'cheese",
 let myAllergen = myArray[0][allergens][1];
 
 /* making a copy of an object 
-bjCopy = JSON.parse(JSON.strinify(myObj));
+bjCopy = JSON.parse(JSON.stringify(myObj));
 */
 
 //nested array
