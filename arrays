@@ -8,5 +8,13 @@ months.length;
 
 METHODS
 
-Array.prototype.length
+
 months.sort();
+
+
+someArray.forEach(el => {if(some logic){console.log(el));
+
+
+
+const newArray = someArray.filter(el => el.propiedad === 'input´);
+
