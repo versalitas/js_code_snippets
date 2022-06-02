@@ -11,10 +11,14 @@ METHODS
 
 months.sort();
 
+//instead oc cumbersome logic with ||
+['water', 'electric', 'plant'].includes(input)
 
+someArray.includes(input)
+
+//iteration with forEach applying something to some elements according to logic
 someArray.forEach(el => {if(some logic){console.log(el));
 
-
-
+//returns filtered array
 const newArray = someArray.filter(el => el.propiedad === 'input´);
 
