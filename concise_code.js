@@ -31,5 +31,13 @@ let pokemonTeam = [bulbasaur, pikachu, charmander, ...pokemon,]
 
 const total = orders.reduce((acc, curr) => acc + curr);
 
+//map returns a new array here with added VAT
+
+const ordersAddedVat = orders.map(order => order * 1.21);
+
+//filter returns an element or various according to filtering logic
+
+const bigOrders = orders.filter( order => order > 100);
+
 
 
