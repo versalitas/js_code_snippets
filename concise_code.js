@@ -11,13 +11,11 @@ const {name, colour, legs} = animal;
       console.log(`The animal is a ${name} with ${colour} fur.);
 }
 
-
 //spread syntax : constructing a new obj out of two
 
 const pikachu = {name: pikachu};
 const stats = {force:3, colour:yellow};
 const pikachuStats = {...pikachu...stats};
-
 
 //spread syntax: pushing 
 
