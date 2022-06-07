@@ -12,9 +12,9 @@ const {name, colour, legs} = animal;
 }
 
 
-//constucting a new obeject out of two or several
+//spread syntax : constructing a new obj out of two
 
 const pikachu = {name: pikachu};
 const stats = {force:3, colour:yellow};
-const pikachuStats = (...pikachu...stats);
+const pikachuStats = {...pikachu...stats};
 
