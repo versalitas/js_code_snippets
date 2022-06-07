@@ -27,4 +27,9 @@ let pokemonTeam = [...pokemon, charmander,];
 //spread syntax: unshifting
 let pokemonTeam = [bulbasaur, pikachu, charmander, ...pokemon,]
 
+//reduce: sum the values in an array
+
+const total = orders.reduce((acc, curr) => acc + curr);
+
+
 
