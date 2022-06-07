@@ -18,3 +18,13 @@ const pikachu = {name: pikachu};
 const stats = {force:3, colour:yellow};
 const pikachuStats = {...pikachu...stats};
 
+
+//spread syntax: pushing 
+
+let pokemon = [bulbasaur, pikachu];
+let pokemonTeam = [...pokemon, charmander,];
+
+//spread syntax: unshifting
+let pokemonTeam = [bulbasaur, pikachu, charmander, ...pokemon,]
+
+
