@@ -11,7 +11,7 @@ METHODS
 
 months.sort();
 
-//instead oc cumbersome logic with ||
+//instead of cumbersome logic with or || )
 ['water', 'electric', 'plant'].includes(input)
 
 someArray.includes(input)
